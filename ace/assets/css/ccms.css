@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'shruti';
+    src: url('../fonts/shruti.eot');
+    src: local('shruti'), local('shruti'), url('../fonts/shruti.eot?#iefix') format('embedded-opentype'), url('../fonts/shruti.woff') format('woff'), url('../fonts/shruti.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lohit';
+    src: url('../fonts/Lohit-Gujarati.eot');
+    src: local('Lohit Gujarati'), local('Lohit'), url('../fonts/Lohit-Gujarati.eot?#iefix') format('embedded-opentype'), url('../fonts/Lohit-Gujarati.woff') format('woff'), url('../fonts/Lohit-Gujarati.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #e4e6e9;
+    min-height: 100%;
+    padding-bottom: 0;
+    font-family: 'Lohit', Lohit;
+    font-size: 13px;
+    color: #393939;
+}
+  
+body, h5, h1, table {
+    font-family: 'Lohit', Lohit;
+}
+@media (min-width: 768px)
+{   .input-group {
+        position: relative;
+        display: inline-flex;
+        border-collapse: separate;
+    }
+
+    .input-group .form-control {
+        position: relative;
+        z-index: 2;
+        float: left;
+        width: 80%;
+        margin-bottom: 0;
+        margin-left: 11px;
+    }
+
+    .input-group .input-group-addon {
+        border-radius: 0!important;
+        padding-right:25px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.col-sm-12, .col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 30px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.btn, .btn-default, .btn-default:focus, .btn:focus {
+    background-color: #307ECC!important;
+    border-color: #307ECC;
+}
+.btn {
+    display: inline-block;
+    color: #FFF!important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25)!important;
+    background-image: none!important;
+    border: 5px solid #FFF;
+    border-radius: 0;
+    box-shadow: none!important;
+    -webkit-transition: all ease .15s;
+    -o-transition: all ease .15s;
+    transition: all ease .15s;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0;
+    position: relative;
+    background-color: #307ECC!important;
+    border-color: #307ECC;
+}
+
+.error {
+    color: #a94442;
+    border-color: #ebccd1;
+    padding:1px 20px 1px 20px;
+}
+
+.errorDiv {
+    position: relative;
+    display: inline-flex;
+}
+
+.page-content {
+    background-color: #fff;
+    position: relative;
+    margin: 0;
+    padding: 8px 5px 24px;
+}
+textarea[readonly] {
+    color: #939192;
+    background: #f5f5f5!important;
+    cursor: default;
+    resize: none; 
+}

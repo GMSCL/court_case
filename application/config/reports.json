@@ -1,0 +1,191 @@
+{
+    "pending_case":{
+        "department_name": {
+            "col" : "B",
+            "name" : "Branch Name / શાખા"
+        },
+        "case_no": {
+            "col" : "C",
+            "name" : "Case No / કેસ નંબર"
+        },
+        "case_title": {
+            "col": "D",
+            "name" : "Case Title / કેસ ટાઇટલ"
+        },
+        "register_date": {
+            "col": "E",
+            "name" : "Case Registered On / કેસ દાખલ તારીખ",
+            "type": "date"
+        },
+        "applicant_id": {
+            "col": "F",
+            "name" : "Applicant / વાદી"
+        },
+        "court_name": {
+            "col": "G",
+            "name" : "Court Name / કોર્ટનું નામ"
+        },
+        "advocate_name": {
+            "col": "H",
+            "name" : "Advocate Name / વકીલનું નામ"
+        },
+        "appeal_date": {
+            "col": "I",
+            "name" : "Next Hearing Date / આવતી સુનવણીની તારીખ",
+            "type": "date"
+        },
+        "interim_order_issued": {
+            "col": "J",
+            "name" : "Interim Order Issued / વચગાળાનો હુકમ જારી થયેલ છે?"
+        },
+        "interim_order": {
+            "col": "K",
+            "name" : "Interim Order / વચગાળાનો હુકમ"
+        }
+    },
+    "appeal_case":{
+        "department_name": {
+            "col" : "B",
+            "name" : "Branch Name / શાખા"
+        },
+        "case_no": {
+            "col" : "C",
+            "name" : "Case No / કેસ નંબર"
+        },
+        "case_title": {
+            "col": "D",
+            "name" : "Case Title / કેસ ટાઇટલ"
+        },
+        "register_date": {
+            "col": "E",
+            "name" : "Case Registered On / કેસ દાખલ તારીખ",
+            "type": "date"
+        },
+        "court_name": {
+            "col": "G",
+            "name" : "Court Name / કોર્ટનું નામ"
+        },
+        "applicant_id": {
+            "col": "F",
+            "name" : "Applicant / વાદીનું નામ"
+        },
+        "advocate_name": {
+            "col": "H",
+            "name" : "Advocate Name / વકીલનું નામ"
+        },
+        "case_status": {
+            "col": "I",
+            "name" : "Case Status / કેસ સ્ટેટસ"
+        },
+        "court_judgement": {
+            "col": "J",
+            "name" : "Court Decision / કોર્ટનો ચુકદો"
+        },
+        "last_date_to_appeal": {
+            "col": "K",
+            "name" : "Last Date To Appeal / અપીલ કરવાની છેલ્લી તારીખ",
+            "type": "date"
+        }
+    },
+    "hearing_date_wise":{
+        "department_name": {
+            "col" : "B",
+            "name" : "Branch Name / શાખા"
+        },
+        "case_no": {
+            "col" : "C",
+            "name" : "Case No / કેસ નંબર"
+        },
+        "case_title": {
+            "col": "D",
+            "name" : "Case Title / કેસ ટાઇટલ"
+        },
+        "register_date": {
+            "col": "E",
+            "name" : "Case Registered On / કેસ દાખલ તારીખ",
+            "type": "date"
+        },
+        "applicant_id": {
+            "col": "F",
+            "name" : "Applicant / વાદી"
+        },
+        "court_name": {
+            "col": "G",
+            "name" : "Court Name / કોર્ટનું નામ"
+        },
+        "advocate_name": {
+            "col": "H",
+            "name" : "Advocate Name / વકીલનું નામ"
+        },
+        "appeal_date": {
+            "col": "I",
+            "name" : "Next Hearing Date / આવતી સુનવણીની તારીખ",
+            "type": "date"
+        },
+        "interim_order_issued": {
+            "col": "J",
+            "name" : "Interim Order Issued / વચગાળાનો હુકમ જારી થયેલ છે?"
+        },
+        "interim_order": {
+            "col": "K",
+            "name" : "Interim Order / વચગાળાનો હુકમ"
+        }
+    },
+    "all_cases_report":{
+        "department_name": {
+            "col" : "B",
+            "name" : "Branch Name / શાખા"
+        },
+        "case_no": {
+            "col" : "C",
+            "name" : "Case No / કેસ નંબર"
+        },
+        "case_title": {
+            "col": "D",
+            "name" : "Case Title / કેસ ટાઇટલ"
+        },
+        "register_date": {
+            "col": "E",
+            "name" : "Case Registered On / કેસ દાખલ તારીખ",
+            "type": "date"
+        },
+        "applicant_id": {
+            "col": "F",
+            "name" : "Applicant / વાદી"
+        },
+        "court_name": {
+            "col": "G",
+            "name" : "Court Name / કોર્ટનું નામ"
+        },
+        "advocate_name": {
+            "col": "H",
+            "name" : "Advocate Name / વકીલનું નામ"
+        },
+        "appeal_date": {
+            "col": "I",
+            "name" : "Next Hearing Date / આવતી સુનવણીની તારીખ",
+            "type": "date"
+        },
+        "case_status": {
+            "col": "I",
+            "name" : "Case Status / કેસ સ્ટેટસ"
+        },
+        "court_judgement": {
+            "col": "J",
+            "name" : "Court Decision / કોર્ટનો ચુકદો"
+        },
+        "last_date_to_appeal": {
+            "col": "K",
+            "name" : "Last Date To Appeal / અપીલ કરવાની છેલ્લી તારીખ",
+            "type": "date"
+        },
+        "interim_order_issued": {
+            "col": "L",
+            "name" : "Interim Order Issued / વચગાળાનો હુકમ જારી થયેલ છે?"
+        },
+        "interim_order": {
+            "col": "M",
+            "name" : "Interim Order / વચગાળાનો હુકમ"
+        }
+    }
+}
